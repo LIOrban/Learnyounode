@@ -22,7 +22,6 @@ http.createServer(function (req, res) {
     res.writeHead(404);
     res.end();
   }
-  
 }).listen(process.argv[2]);
 
 function getTimeObject(str) {
